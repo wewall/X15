@@ -339,7 +339,8 @@ class WebTransfer(object):
         pi = 0
         for row in rows:
             pi += 1
-            port = 50000 + pi
+            row['port'] = 50000 + pi
+            port = row['port']
             user_id = row['id']
             passwd = common.to_bytes(row['passwd'])
             cfg = {'password': passwd}
