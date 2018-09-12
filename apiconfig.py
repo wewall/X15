@@ -14,7 +14,7 @@ MU_REGEX = '%5m%id.%suffix'
 SERVER_PUB_ADDR = '127.0.0.1'  # mujson_mgr need this to generate ssr link
 API_INTERFACE = 'modwebapi'  # glzjinmod, modwebapi
 
-WEBAPI_URL = 'https://biye.la'
+WEBAPI_URL = 'https://api.biye.la'
 WEBAPI_TOKEN = '123456@@kms'
 
 # mudb
